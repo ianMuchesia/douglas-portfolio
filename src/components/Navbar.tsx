@@ -1,6 +1,7 @@
 
 "use client"
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 import { useState } from "react";
 
 
@@ -20,7 +21,7 @@ const Navbar = () => {
         >
           <div className="header__top-container">
             <div className="logo">
-            <img src="/logo.jpeg" width={500}
+            <Image src="/logo.jpeg" width={500}
             height={500} alt="contact-img" />
             </div>
             {!toggle ? (
@@ -49,7 +50,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
         <div className="header__contact_logo">
-          <img src="/logo.jpeg" width={500}
+          <Image src="/logo.jpeg" width={500}
             height={500} alt="contact-img" />
         </div>
       </div>
