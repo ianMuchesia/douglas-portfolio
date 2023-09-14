@@ -25,7 +25,7 @@ const Hero = () => {
 
 				<FadeUp delay={isDesktop ? 1.05 : 0.6}>
 					<h2 className="title">
-                    "Hello,", "I am a Designer"
+                    Hello,, I am a Designer
 					</h2>
 				</FadeUp>
 
